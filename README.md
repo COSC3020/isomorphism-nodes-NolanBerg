@@ -30,3 +30,7 @@ Proof by Contradiction
 Assume that two graphs $( A )$ and $( B )$, with $( A = (V_A, E_A) )$ and $( B = (V_B, E_B) )$, do not have the same number of nodes
 
 Claim: $( A )$ and $( B )$ cannot be isomorphic.
+
+Proof:
+
+- Suppose that there is a bijection $( f: V_A \rightarrow V_B )$.
