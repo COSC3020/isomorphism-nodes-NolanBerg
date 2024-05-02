@@ -36,3 +36,7 @@ Proof:
 - Suppose there is a bijection $( f: V_A \rightarrow V_B )$.
 
 - By definition of a bijection, $( |V_A| )$ equals $( |V_B| )$ since elements of $( V_A )$ must map to every element of $( V_B )$.
+
+- But this contradicts our assumption that $( |V_A| \neq |V_B| )$.
+
+- So no such bijection $( f )$ can exist if $( |V_A| \neq |V_B| )$.
