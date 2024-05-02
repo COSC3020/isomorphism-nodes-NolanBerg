@@ -23,3 +23,8 @@ A bijection is a function that is both one-to-one (injective) and onto (surjecti
 
 - Surjective: Every element in $( V_2 )$ has a pre-image in $( V_1 )$.
 
+For $( f: V_1 \rightarrow V_2 )$ to be a bijection, the sizes of $( V_1 )$ and $( V_2 )$ must be equal because:
+
+- If $( |V_1| > |V_2| )$, then $( f )$ cannot be surjective 
+
+- If $( |V_1| < |V_2| )$, then $( f )$ cannot be injective
