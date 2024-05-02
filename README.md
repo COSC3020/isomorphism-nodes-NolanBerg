@@ -40,3 +40,6 @@ Proof:
 - But this contradicts our assumption that $( |V_A| \neq |V_B| )$.
 
 - So no such bijection $( f )$ can exist if $( |V_A| \neq |V_B| )$.
+
+If two graphs do not have the same number of nodes, they cannot be isomorphic. There cannot exist a bijection between their vertex sets, which is required for two graphs to be isomorphic according to the definition.
+
