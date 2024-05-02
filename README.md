@@ -17,7 +17,7 @@ Objective
 
 Show that graphs $( G_1 )$ and $( G_2 )$ cannot be isomorphic if they do not have the same number of nodes. We will prove this by contradiction.
 
-A bijection is a function that is both one-to-one (injective) and onto (surjective):
+A bijection is a function that is one-to-one (injective) and onto (surjective):
 
 For $( f: V_1 \rightarrow V_2 )$ to be a bijection, the sizes of $( V_1 )$ and $( V_2 )$ must be equal because:
 
@@ -27,10 +27,12 @@ For $( f: V_1 \rightarrow V_2 )$ to be a bijection, the sizes of $( V_1 )$ and $
 
 Proof by Contradiction
 
-Assume that two graphs $( A )$ and $( B )$, with $( A = (V_A, E_A) )$ and $( B = (V_B, E_B) )$, do not have the same number of nodes
+Two graphs $( A )$ and $( B )$, with $( A = (V_A, E_A) )$ and $( B = (V_B, E_B) )$, do not have same number of nodes
 
 Claim: $( A )$ and $( B )$ cannot be isomorphic.
 
 Proof:
 
-- Suppose that there is a bijection $( f: V_A \rightarrow V_B )$.
+- Suppose there is a bijection $( f: V_A \rightarrow V_B )$.
+
+- By definition of a bijection, $( |V_A| )$ equals $( |V_B| )$ since elements of $( V_A )$ must map to every element of $( V_B )$.
