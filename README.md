@@ -17,4 +17,9 @@ Objective
 
 Show that graphs $( G_1 )$ and $( G_2 )$ cannot be isomorphic if they do not have the same number of nodes. We will prove this by contradiction.
 
-Contradiction
+A bijection is a function that is both one-to-one (injective) and onto (surjective):
+
+- Injective: No two distinct elements in $( V_1 )$ map to the same element in $( V_2 )$.
+
+- Surjective: Every element in $( V_2 )$ has a pre-image in $( V_1 )$.
+
